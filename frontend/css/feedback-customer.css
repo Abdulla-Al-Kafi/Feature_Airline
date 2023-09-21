@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width:80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.contact-box{
+    background:#fff;
+    display: flex;
+}
+/* seperate column */
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background:#f14a60;
+    color:#fff;
+}
+
+/* spacing title */
+h1{
+    margin-bottom: 1px;
+}
+.container p{
+    margin-bottom: 20px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc ;
+    padding-bottom: 5px;
+    
+}
+textarea{
+    width: 100%;
+    border:1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:#de374d;
+    font-style: italic;
+}
+
+button{
+    background:#de374d;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top:20px;
+    
+}
+.contact-left h3{
+    color: #de374d;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+/* reach us part */
+.contact-right h3{
+    
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+tr td:nth-child(2){
+    padding-top: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav li{
+    margin-bottom: 15px;
+    padding: 0 20px;
+    padding-bottom: 5px;
+    margin-top: 7px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#current{
+    border-bottom: 5px solid #f14a60;
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav li{
+    margin-bottom: 15px;
+    padding: 0 20px;
+    padding-bottom: 5px;
+    margin-top: 7px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#current{
+    border-bottom: 5px solid #f14a60;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+#coupon-ad{
+    font-size: 12px;
+    color: #f14a60;
+    margin-left: 50px;
+}
+h1{
+    margin-top: 40px;
+}
+div #title{
+    color: #c93d50;
+    margin-left: -20px;
+}
+
+#code-box{
+    width: 300px;
+    text-align: center;
+    margin:auto;
+    margin-top: 50px;
+    background-color: #FFABAB;
+    padding: 30px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+}
+label{
+    padding-top: 12px;
+    margin-right: 18px;
+}
+#code{
+    width: 90px;
+    margin: 8px 0;
+    padding: 3px 10px;
+    background-color: #FCC8D1;
+    border: 1px solid #FCC8D1;
+    text-align: center;
+    font-size: 20px;
+}
+button{
+    background:#FCC8D1;
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 14px;
+    font-size: 17px;
+    
+}
+
+p{
+    margin-top: 5px;
+    font-size: 16px;
+}

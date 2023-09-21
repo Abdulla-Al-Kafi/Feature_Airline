@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav li{
+    margin-bottom: 15px;
+    padding: 0 20px;
+    padding-bottom: 5px;
+    margin-top: 7px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#form-box{
+    width: 450px;
+    margin: auto;
+    margin-top: 60px;
+    background-color:#FFABAB;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+#form-box form{
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-box form div{
+    margin-bottom: 5px;
+}
+
+#form-box form div label{
+    float: left;
+    padding-top: 15px;
+    margin-left: 60px;
+}
+
+#form-box .input-field{
+    margin: 8px 0;
+    margin-right: 60px;
+    padding: 8px 10px;
+    background-color: #FCC8D1;
+    border: 1px solid #FCC8D1;
+    float: right;
+}
+
+#submit-btn{
+    background-color: #FCC8D1;
+    border: 1px solid #FCC8D1;
+    width: 100px;
+    padding: 8px 0;
+    margin-top: 15px;
+    margin-left: 180px;
+    margin-bottom: 15px;
+}
+
+#check-box{
+    margin-right: 10px;
+}
+
+#account-exists a{
+    text-decoration: none;
+    color: #f14a60;
+}
+
+#current{
+    border-bottom: 5px solid #f14a60;
+}

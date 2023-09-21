@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Lucida Sans';
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav li{
+    margin-bottom: 15px;
+    padding: 0 20px;
+    padding-bottom: 5px;
+    margin-top: 7px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#current{
+    border-bottom: 5px solid #f14a60;
+}
+
+h1{
+    margin-left: 20px;
+    
+}
+
+table, .feedbacks, .column{
+    border: 1px solid black;
+}
+
+.column{
+    padding: 5px 10px;
+}
+
+#feedback-box{
+    background-color: #FCC8D1;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#delete, button{
+    background-color: orange;
+}
+
+#delete button{
+    border: none;
+}
+

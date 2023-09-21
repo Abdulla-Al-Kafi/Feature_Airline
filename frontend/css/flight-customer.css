@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav li{
+    margin-bottom: 15px;
+    padding: 0 20px;
+    padding-bottom: 5px;
+    margin-top: 7px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#current{
+    border-bottom: 5px solid #f14a60;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#type{
+    display: flex;
+}
+#type select{
+    height: 30px;
+    margin-right: 10px;
+    padding: 0 10px;
+    background-color: pink;
+}
+#fly{
+    display: flex;
+    padding:10px 20px;
+    padding-left: 0px;
+}
+
+#fly select, input{
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 10px;
+    background-color:pink;
+    border: 1px solid black;
+}
+
+#fly select{
+    height: 32px;
+}
+
+button{
+    background:#de374d;
+    width: 70px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+}
+
+h3{
+    text-align: center;
+    margin: 20px 0;
+}
+#flight-schedule{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+#flight-schedule td, tr{
+    border: 1px solid black;
+    padding: 0 20px;
+}
