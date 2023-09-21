@@ -7,10 +7,10 @@ Welcome to the Feature Airline Management Website, your premier destination for 
 
 To create this efficient and user-centric airline management website, we have harnessed the power of the following robust technologies:
 
-1. **PHP (Hypertext Preprocessor)**:
+ **PHP**:
 
-2. **HTML (Hypertext Markup Language)**:
+ **HTML**:
 
-3. **CSS (Cascading Style Sheets)**:
+ **CSS**:
 
-4. **MySQL**:
+ **MySQL**:
