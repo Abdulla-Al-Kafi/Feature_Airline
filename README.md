@@ -7,10 +7,10 @@ Welcome to the Feature Airline Management Website, your premier destination for 
 
 To create this efficient and user-centric airline management website, we have harnessed the power of the following robust technologies:
 
- **PHP**:
+ **PHP**
 
- **HTML**:
+ **HTML**
 
- **CSS**:
+ **CSS**
 
- **MySQL**:
+ **MySQL**
